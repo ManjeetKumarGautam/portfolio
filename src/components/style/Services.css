@@ -1,0 +1,7 @@
+.bg-img {
+    filter: brightness(0.4);
+}
+
+.service-text {
+    text-shadow: 0 0 10px black;
+}

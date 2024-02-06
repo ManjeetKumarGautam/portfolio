@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 50vh;
+    height: 50vh;
+    border: 2px solid rgb(25, 103, 25);
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px gray;
+    margin-bottom: 2rem;
+}
+
+.image img {
+    width: 100%;
+}
+
+p {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 0.5rem;
+}
+
+.social-links {
+    gap: 2rem;
+}
+
+.social-links li {
+    list-style: none;
+}
+
+.social-links li>a {
+    text-decoration: none;
+}
