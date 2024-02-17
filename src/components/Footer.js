@@ -1,13 +1,15 @@
 import React from 'react'
+import nameLogo from '../images/name_logo.png'
+
 function Footer() {
     return (
         <footer className="bg-dark">
             <div className="container p-4  text-light">
-                <div className="row">
-                    <div className="col-sm-4">
-                        <h1>Manjeet</h1>
+                <div className="row g-3">
+                    <div className="col-sm-4 text-center">
+                        <img src={nameLogo} alt="" width={200} />
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-md-4 col-6 text-center">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <a className="nav-link" aria-current="page" href="/">Home</a>
@@ -23,7 +25,7 @@ function Footer() {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-md-4 col-6 text-center">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 
                             <li className="nav-item">
@@ -40,7 +42,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className=" row col-12">
+            <div className=" row col-12 mt-5">
                 <p className='disabled text-center '>copyright &copy; All Rights reserved</p>
             </div>
         </footer>

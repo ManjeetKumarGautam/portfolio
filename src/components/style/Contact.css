@@ -1,0 +1,12 @@
+.contact-box {
+    /* color: white; */
+    background: rgb(40, 39, 39);
+}
+
+.contact-box input,
+.contact-box textarea {
+    transform: none;
+    border: none;
+    background: rgb(29, 29, 29);
+
+}

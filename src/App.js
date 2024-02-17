@@ -8,14 +8,14 @@ import Services from './components/Services';
 
 function App() {
   return (
-    <>
+    <div className="App">
       <Navbar />
       <Header />
       <About />
       <Services />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
 

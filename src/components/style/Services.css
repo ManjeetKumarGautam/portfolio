@@ -5,3 +5,7 @@
 .service-text {
     text-shadow: 0 0 10px black;
 }
+
+.service {
+    background-color: rgb(29, 29, 29);
+}

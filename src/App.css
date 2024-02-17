@@ -2,4 +2,59 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+.text-shadow {
+    text-shadow: 0 5px 10px black;
+}
+
+.box-shadow {
+    box-shadow: 0 5px 10px black;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+/* 
+::-webkit-scrollbar-track {
+    background: rgb(40, 39, 39);
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(34, 32, 32);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(23, 22, 22);
+} */
+
+
+
+
+.App {
+    color: white;
+    background: rgb(40, 39, 39);
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .nav-link:hover {
+    color: rgb(79, 149, 79);
+}
+
+.sec-title {
+    color: rgb(79, 149, 79);
+}
+
+.shadow-logo {
+    filter: drop-shadow(0 7px 7px black);
 }

@@ -1,4 +1,27 @@
 .about-text {
+
     font-size: 100%;
     text-align: justify;
+}
+
+.about {
+    background-color: rgb(29, 29, 29);
+    text-shadow: 0 5px 10px black;
+}
+
+.about-img img {
+    box-shadow: 0 5px 20px black;
+}
+
+.about-content .card {
+    color: white;
+    /* background-color: rgb(40, 39, 39); */
+    background-color: rgb(29, 29, 29);
+    border: none;
+}
+
+@media only screen and (max-width: 300px) {
+    .about-img {
+        display: none;
+    }
 }
