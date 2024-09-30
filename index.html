@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Manjeet Kumar Gautam</title>
+
+</head>
+
+<body>
+    <header id="header">
+        <nav class="navbar">
+            <h2 class="logo">MKG.</h2>
+            <i class="fa-solid fa-bars bar" id="bar" onclick=showMenu()></i>
+            <div class="nav-items">
+                <i class="fa-solid fa-xmark close" onclick=closeMenu()></i>
+                <a href="#" class="nav-link" onclick=closeMenu()>Home</a>
+                <a href="#about" class="nav-link" onclick=closeMenu()>About</a>
+                <a href="#skills" class="nav-link" onclick=closeMenu()>Skills</a>
+                <a href="#services" class="nav-link" onclick=closeMenu()>Services</a>
+                <a href="#contact" class="nav-link" onclick=closeMenu()>Contact</a>
+            </div>
+        </nav>
+
+        <div class="hero app">
+            <p class="greet">Hi! My Name is</p>
+            <div class="name">
+                <h1 class="text first-text border-text">kumar</h1>
+                <h1 class="text mid-text">manjeet</h1>
+                <h1 class="text last-text border-text">gautam</h1>
+            </div>
+            <p class="desc-text">I'm a proficient Java Full Stack Web Developer with expertise
+                in front-end and back-end technologies, demonstrated through impactful projects and a strong academic
+                background.</p>
+            <div class="btns">
+                <a class="btn" href="#contact">Hire Me!</a>
+                <a class="btn" href="./assets/manjeet_resume.docx" download>Resume</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="about app">
+        <h1 class="title">About Me</h1>
+        <div class="about-content">
+            <div class="img-box">
+                <img src="./assets/IMG_20230407_105452.jpg" alt="">
+            </div>
+            <div class="about-right-content">
+                <p class="about-text">Hi there! My name is Manjeet Kumar Gautam. I love working on web development
+                    projects, both front-endand back-end.
+                    <br><br>
+                    I'm always eager to learn more and have earned certifications in web development, Java, and
+                    JavaScript & React.JS. In my free time, I enjoy playing video games, solving problem-solving
+                    questions, and learning new technology, which keeps me creative and motivated.
+                    <br><br>
+                    I'm looking for a role as a Java Full Stack Web Developer where I can use my skills to work on
+                    exciting projects. I believe my background and passion will help me contribute to your team and I
+                    hope to connect with you soon!
+                </p>
+                <div class="about-tabs">
+                    <div class="tab-btns">
+                        <button class="tab-btn" onclick=showPanel(0)>Education</button>
+                        <button class="tab-btn" onclick=showPanel(1)>Hobbies</button>
+                    </div>
+                    <div class="tab-panel">
+                        <div class="edu" style="--clr:#fc5f9b">
+                            <div class="content">
+                                <h3 class="degree-title">Master's in Computer Application</h3>
+                                <p class="clg-name">Babassaheb Bhimrao Ambedkar University</p>
+                            </div>
+
+                        </div>
+                        <div class="edu" style="--clr:#a362ea">
+                            <div class="content">
+                                <h3 class="degree-title">Bachelors's in Computer Application</h3>
+                                <p class="clg-name">University of Lucknow</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-panel">
+                        <div class="hobby" style="--clr:#fc5f9b">
+                            <p>Playing Video Games</p>
+                        </div>
+                        <div class="hobby" style="--clr:#a362ea">
+                            <p>Doing Problem Solving Questions</p>
+                        </div>
+                        <div class="hobby" style="--clr:#fc5f9b">
+                            <p>Watching Movies</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="skills" class="skills app">
+        <h1 class="title">My Skills</h1>
+        <ul class="skills-icon">
+            <li>
+                <img src="https://img.icons8.com/?size=100&id=v8RpPQUwv0N8&format=png&color=000000" alt="">
+                <h2>HTML</h2>
+            </li>
+            <li>
+                <img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="">
+                <h2>CSS</h2>
+            </li>
+            <li>
+                <img src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000" alt="">
+                <h2>JavaScript</h2>
+            </li>
+            <li>
+                <img src="https://img.icons8.com/?size=100&id=wPohyHO_qO1a&format=png&color=000000" alt="">
+                <h2>React</h2>
+            </li>
+            <li>
+                <img src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" alt="">
+                <h2>Java</h2>
+            </li>
+            <li>
+                <img src="https://img.icons8.com/?size=100&id=90519&format=png&color=000000" alt="">
+                <h2>Spring Boot</h2>
+            </li>
+            <li>
+                <img src="https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000" alt="">
+                <h2>MySQL</h2>
+            </li>
+            <li>
+                <img src="./assets/pngegg.png" alt="">
+                <h2>Maven</h2>
+            </li>
+            <li>
+                <img src="https://img.icons8.com/?size=100&id=PndQWK6M1Hjo&format=png&color=000000" alt="">
+                <h2>Bootstrap</h2>
+            </li>
+            <li>
+                <img src="./assets/postman.png" alt="">
+                <h1>Postman</h1>
+            </li>
+            <li>
+                <img src="https://img.icons8.com/?size=100&id=rdKV2dee9wxd&format=png&color=000000" alt="">
+                <h1>Swagger</h1>
+            </li>
+        </ul>
+    </section>
+
+    <section id="services" class="services app">
+        <h1 class="title">My Services</h1>
+        <div class="services-area">
+            <div class="services-item">
+                <h1>01</h1>
+                <h2>Full Stack Web Development</h2>
+                <p>Comprehensive development services covering both front-end and back-end technologies to build robust
+                    and scalable web applications.</p>
+            </div>
+            <div class="services-item">
+                <h1>02</h1>
+                <h2>UI/UX Design</h2>
+                <p>Designing intuitive and engaging user interfaces and experiences to enhance the usability and visual
+                    appeal of web applications.</p>
+            </div>
+            <div class="services-item">
+                <h1>03</h1>
+                <h2>Database Management</h2>
+                <p>Designing, managing, and optimizing databases to ensure data integrity, security, and performance,
+                    using SQL and MySQL.</p>
+            </div>
+            <div class="services-item">
+                <h1>04</h1>
+                <h2> API Development</h2>
+                <p>Building robust and scalable APIs for seamless integration and communication between different
+                    systems, leveraging Spring Boot and Postman for testing.</p>
+            </div>
+            <div class="services-item">
+                <h1>05</h1>
+                <h2>Project Management</h2>
+                <p>Managing web development projects from concept to deployment, ensuring timely delivery and adherence
+                    to client requirements.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="app">
+        <h1 class="title">Contact</h1>
+        <div class="contact-area">
+            <form action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="d04289aa-09d0-4968-9263-6e3dbfe3c660">
+
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="10" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p>Email: manjeetkumar1572000@gmail.com</p>
+                <p>Phone: +91 9506032564</p>
+                <p>Address: Awadh Vihar Colony 3no. Bagh, Kanpur Road, Lucknow, India</p>
+            </div>
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100026046046110" target="_blank"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://github.com/ManjeetKumarGautam" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/manjeetkumargautam/" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
